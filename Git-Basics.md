@@ -16,3 +16,6 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com" - This creates the SSH key
 eval $(ssh-agent -s) - Starts the ssh in the background
 ssh-add ~/.ssh/id_rsa - adds the key to the SSH
 clip < ~/.ssh/id_rsa.pub - copys the key to clipboard
+
+To get git to ignore files
+you create a .gitignore file and add the files you want to ignore
